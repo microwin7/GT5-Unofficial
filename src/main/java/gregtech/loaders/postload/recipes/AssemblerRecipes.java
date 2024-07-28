@@ -5990,17 +5990,17 @@ public class AssemblerRecipes implements Runnable {
             .eut(16)
             .addTo(assemblerRecipes);
 
-        GT_Values.RA.stdBuilder()
-            .itemInputs(
-                GT_OreDictUnificator.get(OrePrefixes.plateDouble, Materials.Gold, 2),
-                GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Diamond, 4),
-                GT_OreDictUnificator.get(OrePrefixes.gem, Materials.EnderPearl, 1),
-                GT_OreDictUnificator.get(OrePrefixes.plateDense, Materials.Obsidian, 2),
-                GT_Utility.getIntegratedCircuit(1))
-            .itemOutputs(getModItem(Railcraft.ID, "machine.alpha", 1, 0))
-            .duration(30 * SECONDS)
-            .eut(TierEU.RECIPE_HV)
-            .addTo(assemblerRecipes);
+//        GT_Values.RA.stdBuilder()
+//            .itemInputs(
+//                GT_OreDictUnificator.get(OrePrefixes.plateDouble, Materials.Gold, 2),
+//                GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Diamond, 4),
+//                GT_OreDictUnificator.get(OrePrefixes.gem, Materials.EnderPearl, 1),
+//                GT_OreDictUnificator.get(OrePrefixes.plateDense, Materials.Obsidian, 2),
+//                GT_Utility.getIntegratedCircuit(1))
+//            .itemOutputs(getModItem(Railcraft.ID, "machine.alpha", 1, 0))
+//            .duration(30 * SECONDS)
+//            .eut(TierEU.RECIPE_HV)
+//            .addTo(assemblerRecipes);
 
         GT_Values.RA.stdBuilder()
             .itemInputs(
